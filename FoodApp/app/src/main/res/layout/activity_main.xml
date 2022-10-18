@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:src="@drawable/foodlogo"
+        android:contentDescription="@string/app_name"
+        android:padding="60dp">
+    </ImageView>
+
+    <EditText
+        android:id="@+id/user_email"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:inputType="textEmailAddress"
+        android:hint="@string/Login_hint_email_address"
+        android:fontFamily="@font/poppins_regular"
+        android:textSize="20sp"
+        android:background="@drawable/bg_black_rectangle_border"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="5dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/user_password"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:inputType="textPassword"
+        android:hint="@string/Login_hint_password"
+        android:fontFamily="@font/poppins_regular"
+        android:textSize="20sp"
+        android:background="@drawable/bg_black_rectangle_border"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="5dp">
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:text="@string/Login_btn_login"
+        android:fontFamily="@font/poppins_regular"
+        android:textSize="20sp"
+        android:backgroundTint="@color/primary_black"
+        android:background="@drawable/bg_black_ovel"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:onClick="login">
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/Login_not_a_member"
+        android:fontFamily="@font/poppins_regular"
+        android:textSize="20sp"
+        android:textColor="@color/primary_yellow"
+        android:gravity="center"
+        android:onClick="register">
+    </TextView>
+
+</LinearLayout>
+
+<!--
+01. layout gravity
+    - use when total component need align to left, center or right
+
+02. gravity
+    - use when component inside text align to left, center or right
+-->

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--        Table body Loop-->
+        <TableRow
+            android:layout_width="match_parent"
+            android:minHeight="50dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/order_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="20sp"
+                android:textColor="@color/primary_black"
+                android:layout_column="1">
+            </TextView>
+
+            <TextView
+                android:id="@+id/product_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="20sp"
+                android:textColor="@color/primary_black"
+                android:layout_column="2">
+            </TextView>
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

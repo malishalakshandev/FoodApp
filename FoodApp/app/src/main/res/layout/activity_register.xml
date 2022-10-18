@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                android:onClick="backToMain">
+            </ImageView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Create your account"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppins_regular"
+        android:textColor="@color/primary_yellow"
+        android:gravity="center">
+    </TextView>
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="@string/UserRegister_hint_name"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppins_regular"
+        android:background="@drawable/bg_black_rectangle_border"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="5dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/user_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="@string/UserRegister_hint_contact_number"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppins_regular"
+        android:background="@drawable/bg_black_rectangle_border"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="5dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/user_email"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="@string/UserRegister_hint_email_address"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppins_regular"
+        android:background="@drawable/bg_black_rectangle_border"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="5dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/user_password"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="@string/UserRegister_hint_password"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppins_regular"
+        android:background="@drawable/bg_black_rectangle_border"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="5dp">
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_black_ovel"
+        android:backgroundTint="@color/primary_black"
+        android:fontFamily="@font/poppins_regular"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:text="@string/UserRegister_btn_create"
+        android:textSize="20sp"
+        android:onClick="insertUser">
+    </Button>
+
+</LinearLayout>

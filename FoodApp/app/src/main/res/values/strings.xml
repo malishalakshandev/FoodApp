@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Food Bucket</string>
+
+    <!--    Login UI-->
+    <string name="Login_hint_email_address">Email Address</string>
+    <string name="Login_hint_password">Password</string>
+    <string name="Login_btn_login">Login</string>
+    <string name="Login_not_a_member">Not a member ?</string>
+
+    <!--    User Register UI-->
+    <string name="UserRegister_create_your_account">Create your account</string>
+    <string name="UserRegister_hint_name">Name</string>
+    <string name="UserRegister_hint_contact_number">Contact Number</string>
+    <string name="UserRegister_hint_email_address">Email Address</string>
+    <string name="UserRegister_hint_password">Password</string>
+    <string name="UserRegister_btn_create">Create</string>
+
+    <!--    Home UI-->
+    <string name="Home">HOME</string>
+    <string name="Home_order_menu">ORDER MENU</string>
+    <string name="Home_order_menu_describe">To purchase order</string>
+    <string name="Home_all_orders">ALL ORDERS</string>
+    <string name="Home_all_orders_describe">view all orders</string>
+    <string name="Home_completed_orders">COMPLETED ORDERS</string>
+    <string name="Home_completed_orders_describe">view completed orders</string>
+    <string name="Home_pending_orders">PENDING ORDERS</string>
+    <string name="Home_pending_orders_describe">view pending orders</string>
+    <string name="Home_user_profile">USER PROFILE</string>
+    <string name="Home_user_profile_describe">Your profile</string>
+
+    <!--    User Profile-->
+    <string name="UserProfile">USER PROFILE</string>
+
+    <!--    OrderMenu UI-->
+    <string name="OrderMenu">ORDER MENU</string>
+
+    <!--    Confirm Order-->
+    <string name="ConfirmOrder">CONFIRM ORDER</string>
+    <string name="ConfirmOrder_name">Name</string>
+    <string name="ConfirmOrder_price">Price</string>
+    <string name="ConfirmOrder_btn_confirm_order">CONFIRM ORDER</string>
+
+    <!--    Order Success -->
+    <string name="OrderSuccess_btn_order_menu">ORDER MENU</string>
+
+    <!--    All Orders-->
+    <string name="AllOrders">ALL ORDER</string>
+    <string name="AllOrders_order_id">Order #</string>
+    <string name="AllOrders_name">Name</string>
+
+    <!--    Completed Orders-->
+    <string name="CompletedOrders">COMPLETED ORDERS</string>
+    <string name="CompletedOrders_order_id">Order #</string>
+    <string name="CompletedOrders_name">Name</string>
+
+    <!--    Pending Orders-->
+    <string name="PendingOrders">PENDING ORDERS</string>
+    <string name="PendingOrders_order_id">Order #</string>
+    <string name="PendingOrders_name">Name</string>
+
+
+</resources>
